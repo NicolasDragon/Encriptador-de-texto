@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F5FC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1440px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    position: relative; 
+}
+
+.top-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px; 
+    height: auto;
+    z-index: 1; 
+}
+
+.left-panel {
+    flex: 1;
+    padding: 20px;
+    margin-left: 160px; 
+    margin-top: 40px; 
+}
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f4ff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#inputText {
+    width: 600px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.warning {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#encryptBtn {
+    background-color: #0d47a1;
+    color: white;
+}
+
+#decryptBtn {
+    background-color: #e3e3e3;
+    color: #333;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.copy-btn {
+    margin-top: 10px;
+    background-color: #0d47a1;
+    color: white;
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
